@@ -37,7 +37,7 @@ namespace Software_engineer
 				MessageBox.Show("Vui lòng chọn chức vụ!");
 				return;
 			}
-			string connectionString = "Data Source=MAY-425\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
+			string connectionString = "Data Source=.;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
 			SqlConnection connection = new SqlConnection(connectionString);
 			connection.Open();
 
