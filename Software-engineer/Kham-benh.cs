@@ -25,7 +25,7 @@ namespace Software_engineer
         string insert;
         string update;
         string delete;
-        string connectString = "Data Source=DESKTOP-GMMIR7S\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True;MultipleActiveResultSets=True";
+        string connectString = "Data Source=MAY-425\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
         public Kham_benh()
         {
             InitializeComponent();

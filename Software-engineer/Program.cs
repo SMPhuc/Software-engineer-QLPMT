@@ -16,7 +16,7 @@ namespace Software_engineer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Tiep_nhan());
+            Application.Run(new Login());
         }
     }
 }
