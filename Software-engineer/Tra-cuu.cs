@@ -22,7 +22,7 @@ namespace Software_engineer
         string update;
         string delete;
         int count = 0;
-        string connectString = "Data Source=DESKTOP-GMMIR7S\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True;MultipleActiveResultSets=True";
+        string connectString = "Data Source=.;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
 
         public Tra_cuu()
         {
@@ -460,6 +460,13 @@ namespace Software_engineer
             {
                 MessageBox.Show("Chọn đối tượng để CHỈNH SỬA", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home Home = new Home();
+            Home.Show();
+            this.Hide();
         }
     }
 }
