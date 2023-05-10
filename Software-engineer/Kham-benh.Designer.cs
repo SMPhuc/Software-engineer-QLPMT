@@ -60,6 +60,7 @@ namespace Software_engineer
             this.errorResult = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorMedicine = new System.Windows.Forms.ErrorProvider(this.components);
             this.listView1 = new System.Windows.Forms.ListView();
+            this.errorID = new System.Windows.Forms.ErrorProvider(this.components);
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -67,9 +68,7 @@ namespace Software_engineer
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.errorID = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnDeleteMed = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorTrieuChung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorMaBN)).BeginInit();
@@ -82,23 +81,23 @@ namespace Software_engineer
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label8.Location = new System.Drawing.Point(37, 91);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(164, 25);
+            this.label8.Size = new System.Drawing.Size(164, 27);
             this.label8.TabIndex = 86;
             this.label8.Text = "Mã số bệnh nhân";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Alexander", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(491, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 38);
+            this.label1.Size = new System.Drawing.Size(302, 45);
             this.label1.TabIndex = 73;
             this.label1.Text = "PHIẾU KHÁM BỆNH";
             // 
@@ -108,11 +107,11 @@ namespace Software_engineer
             this.cbMaSoBN.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cbMaSoBN.BackColor = System.Drawing.Color.White;
             this.cbMaSoBN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMaSoBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaSoBN.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaSoBN.FormattingEnabled = true;
             this.cbMaSoBN.Location = new System.Drawing.Point(237, 91);
             this.cbMaSoBN.Name = "cbMaSoBN";
-            this.cbMaSoBN.Size = new System.Drawing.Size(372, 33);
+            this.cbMaSoBN.Size = new System.Drawing.Size(372, 35);
             this.cbMaSoBN.TabIndex = 113;
             this.cbMaSoBN.SelectedIndexChanged += new System.EventHandler(this.cbMaSoBN_SelectedIndexChanged);
             this.cbMaSoBN.TextChanged += new System.EventHandler(this.cbMaSoBN_TextChanged);
@@ -124,11 +123,11 @@ namespace Software_engineer
             this.cbMaSoBSi.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cbMaSoBSi.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cbMaSoBSi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMaSoBSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaSoBSi.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaSoBSi.FormattingEnabled = true;
             this.cbMaSoBSi.Location = new System.Drawing.Point(237, 153);
             this.cbMaSoBSi.Name = "cbMaSoBSi";
-            this.cbMaSoBSi.Size = new System.Drawing.Size(372, 33);
+            this.cbMaSoBSi.Size = new System.Drawing.Size(372, 35);
             this.cbMaSoBSi.TabIndex = 114;
             this.cbMaSoBSi.SelectedIndexChanged += new System.EventHandler(this.cbMaSoBSi_SelectedIndexChanged);
             this.cbMaSoBSi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbMaSoBSi_KeyPress);
@@ -137,19 +136,19 @@ namespace Software_engineer
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(649, 216);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 25);
+            this.label2.Size = new System.Drawing.Size(94, 27);
             this.label2.TabIndex = 115;
             this.label2.Text = "Mã phiếu";
             // 
             // lblID
             // 
             this.lblID.BackColor = System.Drawing.Color.Gainsboro;
-            this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errorTrieuChung.SetIconAlignment(this.lblID, System.Windows.Forms.ErrorIconAlignment.BottomLeft);
             this.lblID.Location = new System.Drawing.Point(812, 214);
             this.lblID.Name = "lblID";
@@ -161,21 +160,21 @@ namespace Software_engineer
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Location = new System.Drawing.Point(37, 281);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 25);
+            this.label5.Size = new System.Drawing.Size(113, 27);
             this.label5.TabIndex = 120;
             this.label5.Text = "Triệu chứng";
             // 
             // txtTrieuChung
             // 
-            this.txtTrieuChung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTrieuChung.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTrieuChung.Location = new System.Drawing.Point(237, 278);
             this.txtTrieuChung.Name = "txtTrieuChung";
-            this.txtTrieuChung.Size = new System.Drawing.Size(372, 30);
+            this.txtTrieuChung.Size = new System.Drawing.Size(372, 34);
             this.txtTrieuChung.TabIndex = 119;
             this.txtTrieuChung.TextChanged += new System.EventHandler(this.txtTrieuChung_TextChanged);
             this.txtTrieuChung.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTrieuChung_KeyPress);
@@ -186,56 +185,56 @@ namespace Software_engineer
             this.cbResult.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cbResult.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cbResult.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbResult.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbResult.FormattingEnabled = true;
             this.cbResult.Location = new System.Drawing.Point(237, 340);
             this.cbResult.Name = "cbResult";
-            this.cbResult.Size = new System.Drawing.Size(372, 33);
+            this.cbResult.Size = new System.Drawing.Size(372, 35);
             this.cbResult.TabIndex = 122;
             this.cbResult.SelectedIndexChanged += new System.EventHandler(this.cbResult_SelectedIndexChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label7.Location = new System.Drawing.Point(37, 340);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 25);
+            this.label7.Size = new System.Drawing.Size(85, 27);
             this.label7.TabIndex = 121;
             this.label7.Text = "Kết quả ";
             // 
             // dtpDate
             // 
-            this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDate.Font = new System.Drawing.Font("UTM Alexander", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDate.Location = new System.Drawing.Point(237, 216);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(372, 28);
+            this.dtpDate.Size = new System.Drawing.Size(372, 32);
             this.dtpDate.TabIndex = 123;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(37, 216);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 25);
+            this.label9.Size = new System.Drawing.Size(110, 27);
             this.label9.TabIndex = 124;
             this.label9.Text = "Ngày khám";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Location = new System.Drawing.Point(37, 153);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(122, 25);
+            this.label6.Size = new System.Drawing.Size(122, 27);
             this.label6.TabIndex = 126;
             this.label6.Text = "Mã số bác sĩ";
             // 
@@ -250,7 +249,7 @@ namespace Software_engineer
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.White;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(812, 281);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(104, 40);
@@ -262,7 +261,7 @@ namespace Software_engineer
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.White;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.Location = new System.Drawing.Point(1113, 281);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(104, 40);
@@ -274,7 +273,7 @@ namespace Software_engineer
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.White;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(654, 281);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(114, 40);
@@ -286,7 +285,7 @@ namespace Software_engineer
             // btnEdit
             // 
             this.btnEdit.BackColor = System.Drawing.Color.White;
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.Location = new System.Drawing.Point(967, 281);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(104, 40);
@@ -298,19 +297,19 @@ namespace Software_engineer
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label10.Location = new System.Drawing.Point(649, 95);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(68, 25);
+            this.label10.Size = new System.Drawing.Size(62, 27);
             this.label10.TabIndex = 142;
             this.label10.Text = "Thuốc";
             // 
             // btnAddMed
             // 
             this.btnAddMed.BackColor = System.Drawing.Color.White;
-            this.btnAddMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddMed.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddMed.Location = new System.Drawing.Point(1098, 99);
             this.btnAddMed.Name = "btnAddMed";
             this.btnAddMed.Size = new System.Drawing.Size(119, 40);
@@ -322,40 +321,40 @@ namespace Software_engineer
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Location = new System.Drawing.Point(649, 150);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 25);
+            this.label4.Size = new System.Drawing.Size(137, 27);
             this.label4.TabIndex = 140;
             this.label4.Text = "Thuốc đã chọn";
             // 
             // cbChoosed
             // 
             this.cbChoosed.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbChoosed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbChoosed.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbChoosed.FormattingEnabled = true;
             this.cbChoosed.Location = new System.Drawing.Point(812, 153);
             this.cbChoosed.Name = "cbChoosed";
-            this.cbChoosed.Size = new System.Drawing.Size(259, 33);
+            this.cbChoosed.Size = new System.Drawing.Size(259, 35);
             this.cbChoosed.TabIndex = 137;
             this.cbChoosed.SelectedIndexChanged += new System.EventHandler(this.cbChoosed_SelectedIndexChanged);
             // 
             // cbChooseMed
             // 
             this.cbChooseMed.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbChooseMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbChooseMed.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbChooseMed.FormattingEnabled = true;
             this.cbChooseMed.Location = new System.Drawing.Point(812, 98);
             this.cbChooseMed.Name = "cbChooseMed";
-            this.cbChooseMed.Size = new System.Drawing.Size(259, 33);
+            this.cbChooseMed.Size = new System.Drawing.Size(259, 35);
             this.cbChooseMed.TabIndex = 136;
             // 
             // btnGetId
             // 
             this.btnGetId.BackColor = System.Drawing.Color.White;
-            this.btnGetId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetId.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetId.Location = new System.Drawing.Point(1113, 217);
             this.btnGetId.Name = "btnGetId";
             this.btnGetId.Size = new System.Drawing.Size(104, 40);
@@ -391,7 +390,7 @@ namespace Software_engineer
             this.columnHeader5,
             this.columnHeader8,
             this.columnHeader9});
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
@@ -403,6 +402,10 @@ namespace Software_engineer
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            // 
+            // errorID
+            // 
+            this.errorID.ContainerControl = this;
             // 
             // columnHeader1
             // 
@@ -445,14 +448,10 @@ namespace Software_engineer
             this.columnHeader9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader9.Width = 167;
             // 
-            // errorID
-            // 
-            this.errorID.ContainerControl = this;
-            // 
             // btnDeleteMed
             // 
             this.btnDeleteMed.BackColor = System.Drawing.Color.White;
-            this.btnDeleteMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteMed.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteMed.Location = new System.Drawing.Point(1098, 154);
             this.btnDeleteMed.Name = "btnDeleteMed";
             this.btnDeleteMed.Size = new System.Drawing.Size(119, 40);
@@ -461,23 +460,12 @@ namespace Software_engineer
             this.btnDeleteMed.UseVisualStyleBackColor = false;
             this.btnDeleteMed.Click += new System.EventHandler(this.btnDeleteMed_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(42, 674);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 36);
-            this.button1.TabIndex = 146;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Kham_benh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(227)))));
             this.ClientSize = new System.Drawing.Size(1263, 722);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDeleteMed);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnGetId);
@@ -559,6 +547,5 @@ namespace Software_engineer
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.Button btnDeleteMed;
-        private System.Windows.Forms.Button button1;
     }
 }

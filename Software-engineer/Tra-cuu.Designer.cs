@@ -61,7 +61,6 @@ namespace Software_engineer
             this.errorAddress = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorSDT = new System.Windows.Forms.ErrorProvider(this.components);
             this.dtpDate = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorMaBN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorMaBSi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorName)).BeginInit();
@@ -79,12 +78,12 @@ namespace Software_engineer
             this.columnHeader12,
             this.columnHeader1,
             this.columnHeader2});
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.Font = new System.Drawing.Font("UTM Alexander", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.ForeColor = System.Drawing.Color.Black;
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(53, 360);
+            this.listView1.Location = new System.Drawing.Point(34, 428);
             this.listView1.Margin = new System.Windows.Forms.Padding(2);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1116, 208);
@@ -131,7 +130,7 @@ namespace Software_engineer
             // btnQuery
             // 
             this.btnQuery.BackColor = System.Drawing.Color.White;
-            this.btnQuery.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuery.Font = new System.Drawing.Font("UTM Alexander", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuery.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnQuery.Location = new System.Drawing.Point(965, 272);
             this.btnQuery.Margin = new System.Windows.Forms.Padding(2);
@@ -145,7 +144,7 @@ namespace Software_engineer
             // txtPhone
             // 
             this.txtPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.Location = new System.Drawing.Point(780, 138);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhone.Multiline = true;
@@ -158,43 +157,43 @@ namespace Software_engineer
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Location = new System.Drawing.Point(625, 135);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 25);
+            this.label6.Size = new System.Drawing.Size(125, 27);
             this.label6.TabIndex = 75;
             this.label6.Text = "Số điện thoại";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label8.Location = new System.Drawing.Point(625, 87);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 25);
+            this.label8.Size = new System.Drawing.Size(98, 27);
             this.label8.TabIndex = 74;
             this.label8.Text = "Ngày sinh";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(29, 86);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(164, 25);
+            this.label9.Size = new System.Drawing.Size(164, 27);
             this.label9.TabIndex = 73;
             this.label9.Text = "Mã số bệnh nhân";
             // 
             // txtName
             // 
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.Location = new System.Drawing.Point(211, 191);
             this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Multiline = true;
@@ -208,29 +207,29 @@ namespace Software_engineer
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label10.Location = new System.Drawing.Point(29, 191);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(95, 25);
+            this.label10.Size = new System.Drawing.Size(94, 27);
             this.label10.TabIndex = 71;
             this.label10.Text = "Họ và tên";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Alexander", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(436, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(368, 38);
+            this.label1.Size = new System.Drawing.Size(333, 45);
             this.label1.TabIndex = 69;
             this.label1.Text = "TRA CỨU BỆNH NHÂN";
             // 
             // btnReset
             // 
             this.btnReset.BackColor = System.Drawing.Color.White;
-            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Font = new System.Drawing.Font("UTM Alexander", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnReset.Location = new System.Drawing.Point(211, 272);
             this.btnReset.Margin = new System.Windows.Forms.Padding(2);
@@ -244,39 +243,39 @@ namespace Software_engineer
             // cbMaSoBN
             // 
             this.cbMaSoBN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMaSoBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaSoBN.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaSoBN.FormattingEnabled = true;
             this.cbMaSoBN.Location = new System.Drawing.Point(211, 90);
             this.cbMaSoBN.Name = "cbMaSoBN";
-            this.cbMaSoBN.Size = new System.Drawing.Size(347, 33);
+            this.cbMaSoBN.Size = new System.Drawing.Size(347, 35);
             this.cbMaSoBN.TabIndex = 82;
             // 
             // cbMaSoBSi
             // 
             this.cbMaSoBSi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMaSoBSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaSoBSi.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaSoBSi.FormattingEnabled = true;
             this.cbMaSoBSi.Location = new System.Drawing.Point(211, 138);
             this.cbMaSoBSi.Name = "cbMaSoBSi";
-            this.cbMaSoBSi.Size = new System.Drawing.Size(347, 33);
+            this.cbMaSoBSi.Size = new System.Drawing.Size(347, 35);
             this.cbMaSoBSi.TabIndex = 84;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(29, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 25);
+            this.label2.Size = new System.Drawing.Size(156, 27);
             this.label2.TabIndex = 83;
             this.label2.Text = "Mã số nhân viên";
             // 
             // txtAddress
             // 
             this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.Location = new System.Drawing.Point(780, 187);
             this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.Multiline = true;
@@ -287,19 +286,19 @@ namespace Software_engineer
             // asdasd
             // 
             this.asdasd.AutoSize = true;
-            this.asdasd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.asdasd.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.asdasd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.asdasd.Location = new System.Drawing.Point(625, 185);
             this.asdasd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.asdasd.Name = "asdasd";
-            this.asdasd.Size = new System.Drawing.Size(71, 25);
+            this.asdasd.Size = new System.Drawing.Size(72, 27);
             this.asdasd.TabIndex = 85;
             this.asdasd.Text = "Địa chỉ";
             // 
             // btnEdit
             // 
             this.btnEdit.BackColor = System.Drawing.Color.White;
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Font = new System.Drawing.Font("UTM Alexander", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnEdit.Location = new System.Drawing.Point(708, 272);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
@@ -313,7 +312,7 @@ namespace Software_engineer
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.White;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Font = new System.Drawing.Font("UTM Alexander", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnDelete.Location = new System.Drawing.Point(469, 272);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
@@ -342,10 +341,10 @@ namespace Software_engineer
             // 
             // errorPhone
             // 
-            this.errorPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorPhone.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errorPhone.Location = new System.Drawing.Point(780, 81);
             this.errorPhone.Name = "errorPhone";
-            this.errorPhone.Size = new System.Drawing.Size(347, 30);
+            this.errorPhone.Size = new System.Drawing.Size(347, 34);
             this.errorPhone.TabIndex = 79;
             // 
             // errorAddress
@@ -358,23 +357,13 @@ namespace Software_engineer
             // 
             // dtpDate
             // 
-            this.dtpDate.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDate.CalendarFont = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDate.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDate.Location = new System.Drawing.Point(780, 92);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(347, 30);
+            this.dtpDate.Size = new System.Drawing.Size(347, 34);
             this.dtpDate.TabIndex = 89;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(34, 620);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 34);
-            this.button1.TabIndex = 90;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Tra_cuu
             // 
@@ -382,7 +371,6 @@ namespace Software_engineer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(227)))));
             this.ClientSize = new System.Drawing.Size(1260, 675);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
@@ -449,6 +437,5 @@ namespace Software_engineer
         private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.Button button1;
     }
 }
