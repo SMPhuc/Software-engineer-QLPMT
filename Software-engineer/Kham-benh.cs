@@ -25,7 +25,7 @@ namespace Software_engineer
         string insert;
         string update;
         string delete;
-        string connectString = "Data Source=.;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
+        string connectString = "Data Source=DESKTOP-GMMIR7S\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True;MultipleActiveResultSets=True";
         public Kham_benh()
         {
             InitializeComponent();
@@ -684,11 +684,6 @@ namespace Software_engineer
             cbChooseMed.SelectedIndex = -1;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Home Home = new Home();
-            Home.Show();
-            this.Hide();
-        }
+        
     }
 }

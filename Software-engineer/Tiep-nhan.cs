@@ -18,7 +18,7 @@ namespace Software_engineer
         string insert;
         string update;
         int count = 0;  
-        string connectString = "Data Source=.;Initial Catalog=QuanLyPhongMach;Integrated Security=True";
+        string connectString = "Data Source=DESKTOP-GMMIR7S\\SQLEXPRESS;Initial Catalog=QuanLyPhongMach;Integrated Security=True;MultipleActiveResultSets=True";
         
         public Tiep_nhan()
         {
@@ -456,13 +456,6 @@ namespace Software_engineer
         private void cbMaSoBSi_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Home Home = new Home();
-            Home.Show();
-            this.Hide();
         }
     }
     
